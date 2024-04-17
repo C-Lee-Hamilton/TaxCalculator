@@ -1,6 +1,6 @@
 {
   "name": "@the_grid/get-tax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple tax rate utility for the US and Canada",
   "main": "getTax.js",
   "scripts": {
