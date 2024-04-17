@@ -1,0 +1,22 @@
+{
+  "name": "@the_grid/use-get-tax",
+  "version": "1.1.0",
+  "description": "Simple tax rate utility for the US and Canada",
+  "main": "useGetTax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Lee-Hamilton/UseGetTax.git"
+  },
+  "keywords": [
+    "location"
+  ],
+  "author": "c-lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-Lee-Hamilton/UseGetTax/issues"
+  },
+  "homepage": "https://github.com/C-Lee-Hamilton/UseGetTax#readme"
+}
