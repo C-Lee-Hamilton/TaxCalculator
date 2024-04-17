@@ -1,4 +1,4 @@
-export const useGetTax = (amount, stateOrProvince) => {
+export const getTax = (amount, stateOrProvince) => {
   const location = stateOrProvince.toUpperCase();
   let rate = 0;
   switch (location) {
@@ -131,5 +131,5 @@ export const useGetTax = (amount, stateOrProvince) => {
   const totalTax =
     rate === "No Sales Tax" ? 0 : (amount * rate * 0.01).toFixed(2);
 
-  return { totalTax };
+  return totalTax;
 };
